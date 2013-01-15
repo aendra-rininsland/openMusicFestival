@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Music Festival Components feature.
+ */
+
+include_once 'music_festival_components.features.inc';

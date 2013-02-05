@@ -208,7 +208,7 @@
               $('#flickr-artist').html('<a href="' + artist_url + '">' + artist + '</a>')
               $('#flickr-title').html('<a href="' + data.items[randomnumber].link + '">' + title + '</a>')
           });
-          $('ul.nav li a').localScroll();
+          $.localScroll();
         });
       })(jQuery);
     </script>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8">
     <title>
@@ -171,7 +172,7 @@
     </script>
     <script src="assets/js/bootstrap.js">
     </script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js">
+    <script src="//cdn.jsdelivr.net/jquery.scrollto/1.4.2/jquery.scrollTo-min.js">
     </script>
     <script type="text/javascript" src="assets/js/vegas/jquery.vegas.js">
     </script>
@@ -193,21 +194,22 @@
               limit: "10",
 
             },
-        function(data) {
-          var randomnumber=Math.floor(Math.random()*10)
-          var large_url = data.items[randomnumber].media.m.replace(/_m(\..*)$/i, '_b$1')
-          var artist = data.items[randomnumber].author.replace(/.*?\((.*)\)/ig, '$1')
-          var artist_url = 'http://www.flickr.com/' + data.items[randomnumber].author_id
-          var title = data.items[randomnumber].title
-          $.vegas({
-            src: large_url
+            function(data) {
+              var randomnumber=Math.floor(Math.random()*10)
+              var large_url = data.items[randomnumber].media.m.replace(/_m(\..*)$/i, '_b$1')
+              var artist = data.items[randomnumber].author.replace(/.*?\((.*)\)/ig, '$1')
+              var artist_url = 'http://www.flickr.com/' + data.items[randomnumber].author_id
+              var title = data.items[randomnumber].title
+              $.vegas({
+                src: large_url
+              });
+              $.vegas('overlay', {
+                src:'assets/js/vegas/overlays/09.png'
+              });
+              $('#flickr-artist').html('<a href="' + artist_url + '">' + artist + '</a>')
+              $('#flickr-title').html('<a href="' + data.items[randomnumber].link + '">' + title + '</a>')
           });
-          $.vegas('overlay', {
-            src:'assets/js/vegas/overlays/09.png'
-          });
-          $('#flickr-artist').html('<a href="' + artist_url + '">' + artist + '</a>')
-          $('#flickr-title').html('<a href="' + data.items[randomnumber].link + '">' + title + '</a>')
-        });
+          $('ul.nav').localScroll();
         });
       })(jQuery);
     </script>

@@ -1,6 +1,7 @@
 # openMusicFestival 7.x-1.0
 
-This is a Drupal 7 distribution allowing the creation of feature-rich music festival sites.
+This is a Drupal 7 distribution allowing the creation of feature-rich music 
+festival sites.
 
 It is currently pretty bare-bones, but out of the box it allows you to:
 
@@ -10,12 +11,15 @@ It is currently pretty bare-bones, but out of the box it allows you to:
 + Use effective WYSIWYG layout tools
 + Provide rich semantic metadata for site content
 + Easily roll-over site content from one festival to the next
-+ Plus do everything else you would expect from a robust CMS -- articles, pages, contact forms, etc
++ Plus do everything else you would expect from a robust CMS -- articles, pages,
+contact forms, etc
 
-Every module used on the site is a well-maintained Drupal project; by using this distribution,
-you'll have a head start in using Drupal in the most effective way possible for a festival website.
+Every module used on the site is a well-maintained Drupal project; by using this
+distribution, you'll have a head start in using Drupal in the most effective way
+possible for a festival website.
 
-Further, because it's stock Drupal code, your site is easy to maintain and extensible by anyone familiar with Drupal.
+Further, because it's stock Drupal code, your site is easy to maintain and 
+extensible by anyone familiar with Drupal.
 
 ## Installation
 

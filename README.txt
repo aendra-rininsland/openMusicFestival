@@ -22,7 +22,7 @@ Further, because it's stock Drupal code, your site is easy to maintain and exten
 This section is under construction -- currently, it involves the following:
 
 1. Clone the Git repo
-	git clone --recursive --branch master aendrew@git.drupal.org:sandbox/aendrew/1889604.git openmusicfestival
+	git clone --recursive --branch 7.x-1.0 http://git.drupal.org/sandbox/aendrew/1889604.git openmusicfestival
 2. Change directory
 	cd openmusicfestival
 3. Drush Make it!

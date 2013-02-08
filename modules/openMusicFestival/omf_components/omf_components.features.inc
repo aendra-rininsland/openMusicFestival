@@ -1,20 +1,20 @@
 <?php
 /**
  * @file
- * music_festival_components.features.inc
+ * omf_components.features.inc
  */
 
 /**
  * Implements hook_views_api().
  */
-function music_festival_components_views_api() {
+function omf_components_views_api() {
   return array("version" => "3.0");
 }
 
 /**
  * Implements hook_node_info().
  */
-function music_festival_components_node_info() {
+function omf_components_node_info() {
   $items = array(
     'article' => array(
       'name' => t('Article'),

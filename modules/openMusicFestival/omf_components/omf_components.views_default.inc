@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * music_festival_components.views_default.inc
+ * omf_components.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function music_festival_components_views_default_views() {
+function omf_components_views_default_views() {
   $export = array();
 
   $view = new view();

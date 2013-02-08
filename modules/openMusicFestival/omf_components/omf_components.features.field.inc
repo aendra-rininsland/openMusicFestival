@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * music_festival_components.features.field.inc
+ * omf_components.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function music_festival_components_field_default_fields() {
+function omf_components_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-article-body'.

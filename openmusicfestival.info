@@ -1,5 +1,5 @@
 name = openMusicFestival
-description = Distribution allowing radtacular music festival websites.
+description = Distribution allowing radtacular music festival websites
 core = 7.x
 dependencies[] = auto_nodetitle
 dependencies[] = ctools

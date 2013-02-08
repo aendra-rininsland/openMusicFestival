@@ -4,4 +4,4 @@
  * Code for the Music Festival Components feature.
  */
 
-include_once 'music_festival_components.features.inc';
+include_once 'omf_components.features.inc';

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * music_festival_components.features.taxonomy.inc
+ * omf_components.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function music_festival_components_taxonomy_default_vocabularies() {
+function omf_components_taxonomy_default_vocabularies() {
   return array(
     'genres' => array(
       'name' => 'Genres',
